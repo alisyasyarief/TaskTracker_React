@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1;100&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  border: 1px solid #664686;
+  padding: 30px;
+  background: rgb(66, 66, 66);
+  opacity: 0.9;
+  border-radius: 8px;
+}
+
+/* body {
+  background-image: url('https://i.etsystatic.com/19915573/r/il/30f874/3438785192/il_570xN.3438785192_7hck.jpg');
+} */
+
+h1, h2, h3, h4, h5, p, input, span, li, .button {
+  font-family: Ysabeau SC;
+  margin: 0;
+}
+
+input {
+  font-size: 110%;
+  margin: 7px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+}
+
+input:hover {
+  border: 1px solid #664686;
+}
+/* input[type=checkbox]:hover {
+  border: 2px solid #664686;
+} */
+input[type=checkbox]:checked {
+  accent-color: #664686 !important;
+}
+
+h4 {
+  font-size: 20px;
+  margin: 0;
+}
+
+span {
+  float: right;
+  margin: -22px 20px 0 0;
+}
+
+ul {
+  margin: 0;
+  list-style-type: none;
+}
+
+.button, .button2 {
+  padding: 5px;
+  margin: 2px;
+}
+.button2 {
+  margin: 10px;
+}
+button:hover {
+  border-color: #664686;
+}
+.checkbox {
+  padding: 5px;
+  margin: 15px;
+}
+.checkbox:onclick {
+  color: #664686;
+}
+.strikethrough {
+  text-decoration: line-through;
+  color: #664686;
+}
